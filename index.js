@@ -46,11 +46,11 @@ $(function(){
    }else{
     $("body").append('<div id="comment">マジヤベェ</div>');
    }
-   $("#ans").hide(500,function(){
+   $("#ans").hide(0,function(){
     $("#ans").fadeIn(500);
    });
 
-   $("#comment").hide(500,function(){
+   $("#comment").hide(0,function(){
     $("#comment").fadeIn(500);
    });
    
