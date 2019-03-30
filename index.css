@@ -26,3 +26,31 @@ header{
 .imp{
  	width:60%;
 }
+
+.modal{
+	position:absolute;
+	width:50%;
+	height:200px;
+ 	border:solid 1px black;
+ 	margin:auto;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:100;
+	background-color:white;
+  	display:none;
+}
+
+#bg{
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:rgba(0,0,0,0.4);	
+}
+
+.quest{
+	font-size:100%;
+}
