@@ -25,7 +25,6 @@ header{
 
 .imp{
  	width:60%;
-	font-size:16px;
 }
 
 .modal{
@@ -52,6 +51,6 @@ header{
 	background:rgba(0,0,0,0.4);	
 }
 
-.quest{
-	font-size:17px;
+input[type=text]{
+	font-size:16px;
 }
