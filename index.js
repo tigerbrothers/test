@@ -36,19 +36,20 @@ $(function(){
    if($("#q3").val() === ans3){
     sum += 1;
    }
-   $("body").append('<div id="ans"><span id="anscol">' + sum + '</span>/3</div>');
-   if(sum === 0){
-    $("body").append('<div id="comment">聖書をもっと勉強しましょう〜！</div>');
-   }else if(sum === 1){
-　　$("body").append('<div id="comment">まあまあだね</div>');
-   }else if(sum === 2){
-    $("body").append('<div id="comment">なかなかやりますね！</div>');
-   }else{
-    $("body").append('<div id="comment">マジヤベェ</div>');
-   }
+   $("body").append('<div id="ans"><span id="anscol"></span>/3</div>');
+   $("body").append('<div id="comment">');
    $("#comment").hide();
    $("#ans").hide();
-   
+   $("#anscol").text(sum);
+   if(sum === 0){
+    $("#comment").text('聖書をもっと勉強しましょう〜！');
+   }else if(sum === 1){
+　　$("#comment").text('まあまあだね');
+   }else if(sum === 2){
+    $("#comment").text('なかなかやりますね！');
+   }else{
+    $("#comment").text('マジヤベェ');
+   }
    $("#comment").fadeIn(1000);
    $("#ans").fadeIn(1000);
    
