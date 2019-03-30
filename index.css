@@ -13,6 +13,11 @@
 .errorbg{
 	background-color:pink;
 }
+
 body{
 	text-align:center;
+}
+
+@media(max-width:670px){
+	width:50%;
 }
