@@ -46,10 +46,9 @@ $(function(){
    }else{
     $("body").append('<div id="comment">マジヤベェ</div>');
    }
-   $("#ans").hide();
-   $("#comment").hide();
 
    $("#comment").fadeIn(500);
+   $("#ans").fadeIn(500);
    
   }
  });
