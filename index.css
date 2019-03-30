@@ -44,6 +44,7 @@ header{
   	display:none;
 }
 
+/*
 #bg{
 	position:fixed;
 	top:0;
@@ -52,6 +53,7 @@ header{
 	width:100%;
 	background:rgba(0,0,0,0.4);	
 }
+*/
 
 input{
 	font-size:16px;
