@@ -54,6 +54,7 @@ header{
 }
 
 input{
-	font-size:16px;
+	font-family:inherit;
+	font-size:100%;
 }
 
