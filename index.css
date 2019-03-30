@@ -55,4 +55,5 @@ header{
 
 input{
 	font-size:16px;
+	-webkit-appearance: none;
 }
