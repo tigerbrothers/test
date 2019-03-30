@@ -5,7 +5,6 @@ $(function(){
   $(".modal").fadeIn(300);
  });
  */
- $("body").append('<div>' + $("input").css("font-size") + '</div>');
  
  $("#decide").click(function(){
   var flag = 0;
