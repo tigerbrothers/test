@@ -66,6 +66,7 @@ button{
 
 #ans{
 	font-size:100px;
+	display:none;
 }
 
 #anscol{
@@ -74,4 +75,5 @@ button{
 
 #comment{
 	font-size:50px;
+	display:none;
 }	
