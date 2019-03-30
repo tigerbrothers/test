@@ -1,0 +1,15 @@
+.question-container{
+	padding:20px 0px;
+}
+
+#decide{
+	margin:20px 0px;
+}
+
+.errorcol{
+	color:red;
+}
+
+.errorbg{
+	background-color:pink;
+}
