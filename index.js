@@ -5,7 +5,6 @@ $(function(){
   $(".modal").fadeIn(300);
  });
  */
- console.log($(.imp).css("font-size"));
  
  $("#decide").click(function(){
   var flag = 0;
