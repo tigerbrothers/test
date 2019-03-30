@@ -18,6 +18,6 @@ body{
 	text-align:center;
 }
 
-@media(max-width:670px){
+@media(max-width:1334px){
 	width:50%;
 }
