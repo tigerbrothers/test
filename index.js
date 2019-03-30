@@ -5,7 +5,7 @@ $(function(){
   $(".modal").fadeIn(300);
  });
  */
- 
+
  $("#decide").click(function(){
   var flag = 0;
   $(".errorbg").each(function(){$(this).removeClass("errorbg");});
@@ -23,6 +23,37 @@ $(function(){
    $("#question-area").fadeOut(500);
    $("h1").fadeOut(500,function(){$("h1").text("正解した数は！？");});
    $("h1").fadeIn(500);
+   var ans1 = "ヤコブ";
+   var ans2 = "エリヤ";
+   var ans3 = "ペトロ";
+   var sum = 0;
+   if($("#q1").val() === ans1){
+    sum += 1;
+   }
+   if($("#q2").val() === ans2){
+    sum += 1;
+   } 
+   if($("#q3").val() === ans3){
+    sum += 1;
+   }
+   $("body").append('<div id="ans"><span id="anscol">' + sum + '</span>/3</div>');
+   if(sum === 0){
+    $("body").append('<div id="comment">聖書をもっと勉強しましょう〜！</div>');
+   }else if(sum === 1){
+　　$("body").append('<div id="comment">まあまあだね</div>');
+   }else if(sum === 2){
+    $("body").append('<div id="comment">なかなかやりますね！</div>');
+   }else{
+    $("body").append('<div id="comment">マジヤベェ</div>');
+   }
+   $("#ans").hide(500,function(){
+    $("#ans").fadeIn(500);
+   });
+
+   $("#comment").hide(500,function(){
+    $("#comment").fadeIn(500);
+   });
+   
   }
  });
 });
