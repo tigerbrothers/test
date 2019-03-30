@@ -47,7 +47,7 @@ $(function(){
     $("body").append('<div id="comment">マジヤベェ</div>');
    }
    $("#ans").hide();
-   $("#commenr").hide();
+   $("#comment").hide();
 
    $("#comment").fadeIn(500);
    
