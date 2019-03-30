@@ -1,8 +1,10 @@
 $(function(){
+ /*
  $(".imp").click(function(){
   $("body").append('<div id="bg">');
   $(".modal").fadeIn(300);
  });
+ */
  
  $("#decide").click(function(){
   var flag = 0;
