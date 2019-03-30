@@ -49,8 +49,8 @@ $(function(){
    $("#comment").hide();
    $("#ans").hide();
    
-   $("#comment").fadeIn();
-   $("#ans").fadeIn();
+   $("#comment").fadeIn(1000);
+   $("#ans").fadeIn(1000);
    
   }
  });
