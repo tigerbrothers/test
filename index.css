@@ -18,4 +18,12 @@ body{
 	text-align:center;
 }
 
+header{
+	background-color:rgba(0,0,255,0.8);
+	color:white;
+}
 
+.imp{
+ 	width:60%;
+	height:50px;
+}
