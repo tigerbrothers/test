@@ -53,10 +53,10 @@ header{
 
 input{
 	font-size:70px;
+	transform:scale(0.8);
 }
 
 label{
 	font-size:16px;
-	transform:scale(0.5);
 }
 
