@@ -1,8 +1,8 @@
 $(function(){
  $("#decide").click(function(){
   var flag = 0;
-  $(".errorbg").removeClass(".errorbg");
-  $(".errorcol").remove();
+  $(".errorbg").each(function(){$(this).removeClass("errorbg");});
+  $(".errorcol").text("");
   $(".imp").each(function(){
    if($(this).val() === ""){
     flag -= 1;
