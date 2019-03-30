@@ -16,7 +16,6 @@
 
 body{
 	text-align:center;
-	font-size:16px;
 }
 
 header{
@@ -27,7 +26,6 @@ header{
 .imp{
  	width:60%;
 	height:50px;
-	font-size:16px;
 }
 
 .modal{
